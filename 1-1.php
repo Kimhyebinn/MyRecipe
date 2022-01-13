@@ -33,14 +33,14 @@ while($row = mysqli_fetch_array($result))
                 <colgroup width = "120px"></colgroup>
                 <colgroup width = "120px"></colgroup>
                 <colgroup width = "120px"></colgroup>
-            <thread>
+            <thead>
                 <tr>
                     <th>메뉴</th>
                     <th>주재료</th>
                     <th>부재료</th>
                     <th>양념</th>
                 </tr>
-            </thread>
+            </thead>
             <tbody>
                 <tr>
                     <td><img src = "image/1.jpg" width = "300" height = "200"></td>
